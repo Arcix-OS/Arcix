@@ -1,99 +1,121 @@
 # 🌌 Arcix OS
 
-> **The Future of Android — Reimagined.**
+> **The Future of Android — Reimagined from the Source.**
 
-Arcix OS is a next-generation Android distribution built from the foundations of [LineageOS](https://lineageos.org).  
-Designed for dreamers, creators, and power users — Arcix brings a **smarter, faster, and more adaptive** Android experience across **mobile and desktop devices**.
+Arcix OS is an independent Android fork built from the foundations of the  
+[Android Open Source Project (AOSP)](https://source.android.com).  
+
+Designed for dreamers, creators, and power users — Arcix is a **smarter, faster, and more adaptive** operating system that bridges **mobile and desktop** experiences seamlessly.
+
+Arcix OS isn’t based on any existing ROM — it’s built *from scratch*, with a vision to redefine how Android feels, performs, and evolves.
 
 ---
 
 ## ⚡ What Is Arcix?
 
-Arcix OS isn’t just another custom ROM.  
-It’s a bold re-envisioning of what Android can become — **intelligent, elegant, and deeply personal**.
+Arcix OS is more than a custom ROM — it’s a **next-generation Android distribution** built to evolve beyond phones.  
+It’s about giving users *real control*, *real performance*, and *real intelligence* — all while keeping the soul of open-source Android alive.
 
-Every layer of Arcix is designed to **adapt to you** — your habits, your workflow, your device.  
-Whether you’re gaming, creating, or coding, Arcix fine-tunes itself to deliver the **smoothest, most cohesive Android experience ever built**.
+Every layer of Arcix is being reimagined — from the UI to the kernel — to deliver a unified, adaptable, and privacy-focused experience across any device.
+
+> **From pocket to PC — one OS that adapts to you.**
 
 ---
 
 ## 🌠 Core Philosophy
 
-- 🧠 **Intelligence without dependence** — AI that works *offline*, not in the cloud.  
-- 🔒 **Privacy by design** — transparency, control, and data freedom.  
-- ⚙️ **Performance through adaptability** — the system learns, optimizes, and evolves.  
+- 🧠 **Intelligence without dependence** — local AI that works *offline*, not in the cloud.  
+- 🔒 **Privacy by default** — transparency, control, and data freedom built into the core.  
+- ⚙️ **Performance through adaptability** — a system that learns, optimizes, and evolves.  
 - 🎨 **Design that moves** — fluid, immersive, and alive.  
-- 🌍 **One OS, every device** — seamless across phone, tablet, or PC.
+- 🌍 **One OS, every device** — seamless continuity from phone to desktop.
 
 ---
 
-## ✨ Highlight Features
+## ✨ Planned Features
 
 ### 🧩 Adaptive Intelligence
-- **Arcix Mind** — local AI that understands context, predicts actions, and automates tasks.  
-- **Dynamic Resource Flow** — real-time performance scaling for efficiency and speed.  
-- **Smart Scene Profiles** — environment-based auto-tuning (home, work, gaming, sleep).
+- **Arcix Mind** — on-device AI that understands context, predicts actions, and automates tasks.  
+- **Dynamic Resource Flow** — real-time CPU, GPU, and RAM scaling for smooth performance.  
+- **Scene Profiles** — automatic system tuning for work, gaming, or rest.
 
 ### 💻 Hybrid Power
-- **Arcix Desktop Mode** — full desktop interface with multi-window apps and drag-and-drop.  
-- **Device Continuity** — pick up any task on another Arcix device instantly.  
-- **Phone-as-Touchpad** — use your phone as a control surface in desktop mode.
+- **Arcix Desktop Mode** — full desktop interface with windows, drag-and-drop, and multitasking.  
+- **Device Continuity** — pick up where you left off on any Arcix device.  
+- **Phone-as-Touchpad** — use your phone to control desktop mode wirelessly.
 
-### 🔒 Privacy & Control
-- **Arcix Safe** — encrypted vault space for apps and files.  
-- **Per-App Network & Sensor Control** — block network access or sensor usage instantly.  
-- **Private Lockdown Mode** — disable biometrics and hide sensitive data with one tap.
+### 🔒 Privacy & Security
+- **Arcix Safe** — encrypted vault for sensitive apps and files.  
+- **Per-App Network & Sensor Control** — toggle camera, mic, or internet access instantly.  
+- **Private Lockdown Mode** — disable biometrics and hide sensitive data with a single tap.
 
 ### 🎮 Performance & Creativity
-- **Arcix Flow Engine** — real-time system optimization for gaming, recording, or heavy apps.  
-- **Arcix Studio** — built-in screen recording, streaming, and editing toolkit.  
-- **Arcix Sound Core** — enhanced audio engine with per-app EQ and spatial sound.
+- **Arcix Flow Engine** — intelligent performance scheduler tuned for gaming and heavy apps.  
+- **Arcix Studio** — built-in recording, streaming, and creative tools.  
+- **Arcix Sound Core** — enhanced audio engine with spatial EQ and per-app tuning.
 
-### 🎨 Design & UX
-- **Arcix Theme Engine** — complete theming with live wallpapers, dynamic colors, and icon depth.  
-- **120Hz Fluid Motion** — buttery-smooth animations, system-wide.  
-- **Custom Layout Engine** — personalize quick settings, navigation, and status elements.
+### 🎨 Design & Experience
+- **Arcix Theme Engine** — complete UI customization with live wallpapers and depth icons.  
+- **120Hz Fluid Motion** — buttery animations system-wide.  
+- **Layout Customizer** — personalize status bar, quick settings, and navigation styles.
 
 ---
 
-## 🛠️ Status
+## 🧱 Foundation & Architecture
+
+Arcix OS is being developed from the **AOSP master branch** and adapted for both **ARM** and **x86_64** architectures.  
+The project integrates select open-source technologies to enhance compatibility and usability:
+
+| Layer | Base Source |
+|--------|--------------|
+| Core Framework | Android Open Source Project (AOSP) |
+| x86 / PC Support | Android-x86 Project |
+| Hardware Abstraction | Generic HALs & open-source drivers |
+| AI & Intelligence | TensorFlow Lite / on-device ML |
+| App Store | F-Droid, Aurora Store (Play optional) |
+| Kernel | Common Android kernel + x86 patches |
+
+---
+
+## 🛠️ Development Status
 
 Arcix OS is currently in **early development**.  
-We’re assembling the **core team**, designing the architecture, and preparing the first builds.
+We’re building the core environment, designing the architecture, and preparing initial device builds.
 
 If you want to help shape the next era of Android:
 - 📱 ROM developers  
+- 💻 Kernel engineers  
 - 🎨 UI/UX designers  
-- 🧠 AI & system engineers  
+- 🧠 AI & system integrators  
 - 💬 Community builders  
 
-👉 Join the Arcix Project and help us build something extraordinary.
+👉 **Join the Arcix Project** and help bring this vision to life.
 
 ---
 
-## 🌍 Roadmap (Early Concept)
+## 🌍 Roadmap (Concept Stage)
 
 | Stage | Codename | Focus |
 |--------|-----------|--------|
-| **0.0 – Genesis** | *Blueprint* | Planning, team formation, and brand design |
-| **0.1 – Alpha** | *Ignite* | Fork LineageOS, begin core framework integration |
-| **0.5 – Beta** | *Evolve* | Introduce Arcix Mind, Safe, and Flow Engine |
-| **1.0 – Stable** | *Ascend* | Arcix Desktop Mode, advanced theming, AI optimization |
-| **Future** | *Continuum* | Cross-device linking, Arcix Cloud, and ecosystem growth |
+| **0.0 — Genesis** | *Blueprint* | Design, planning, and architecture setup |
+| **0.1 — Alpha** | *Ignite* | Build AOSP base, add x86 desktop support |
+| **0.5 — Beta** | *Evolve* | Introduce Arcix Mind, Safe, and Flow Engine |
+| **1.0 — Stable** | *Ascend* | Full Arcix Desktop Mode and adaptive intelligence |
+| **Future** | *Continuum* | Multi-device linking, ecosystem, and AI evolution |
 
 ---
 
 ## 🧑‍💻 Contribute
 
-Arcix is **open-source** and **community-driven**.  
-We believe the best software is built together.
+Arcix OS is **open-source** and **community-driven**.  
+We believe the best systems are built together.
 
 1. Fork the repository  
-2. Create your feature branch  
-3. Submit your pull request  
+2. Create a feature branch  
+3. Submit a pull request  
 4. Join the discussion and collaborate  
 
-Everything from kernel optimizations to design mockups is welcome.
+Whether you’re optimizing the kernel, building UI mockups, or designing icons — there’s a place for you in Arcix.
 
 ---
 
@@ -101,7 +123,11 @@ Everything from kernel optimizations to design mockups is welcome.
 
 Arcix OS © 2025 The Arcix Project  
 Licensed under the **Apache License 2.0**.  
-Based on the Android Open Source Project and LineageOS.
+Based on the **Android Open Source Project (AOSP)**.
+
+> Arcix OS is an independent open-source Android fork.  
+> It does **not** include proprietary Google components (GMS, Widevine, or ARM translation libraries).  
+> Users may install these components separately where licensing allows.
 
 ---
 
@@ -111,4 +137,4 @@ Arcix OS isn’t about replacing Android —
 it’s about **unlocking its full potential**.
 
 > **Fast. Intelligent. Beautiful. Private.  
-> Arcix OS — The Ultimate Android Experience.**
+> Arcix OS — The Evolution of Android.**
