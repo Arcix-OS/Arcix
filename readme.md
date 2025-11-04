@@ -1,5 +1,5 @@
 # 🌍 Arcix OS
-./main/Icon.svg <!-- replace with your logo path -->
+.![Logo](Icon.svg)
 
 [![Status](https://img.shields.io/badge/status-early%20development-orange)](https://github.com/Arcix-OS)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](#license)
