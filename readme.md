@@ -143,19 +143,3 @@ For school pilots, partnerships, or sponsorship inquiries, please open an issue 
 
 > **Arcix OS — Empowering Everyone, Everywhere.**
 
----
-
-### Notes & next steps
-- Replace badge links with your real CI/status badges.  
-- Add `assets/icon-dark.png` (your black-background logo) to the repo and update the path.  
-- Create `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, and `LICENSE` files to make the project ready for organizational adoption.  
-- Add a short `GETTING_STARTED.md` with basic build / test instructions when you have first builds.
-
----
-
-Would you like me to:
-- generate `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, and `LICENSE` (Apache-2.0) files next?  
-- produce the `GETTING_STARTED.md` with AOSP + x86 initial sync/build commands?  
-- or create a one-page landing HTML (dark themed) ready to drop into your GitHub Pages site (I already started one — I can finish it with your logo and copy)?
-
-Pick one and I’ll produce it right away.
