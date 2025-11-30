@@ -1,145 +1,132 @@
-# 🌍 Arcix OS
-.![Logo](Icon.svg)
 
-[![Status](https://img.shields.io/badge/status-early%20development-orange)](https://github.com/Arcix-OS)
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue)](#license)
-[![Join Us](https://img.shields.io/badge/join-community-cyan)](#connect)
+## Mission
 
-### **The Universal Operating System for Learning, Creativity, and Progress**
+Arcix OS exists to **amplify human potential**. Its mission is to provide a unified platform where technology **serves the user**, not the other way around.
 
-> **Built to inspire minds, empower creators, and redefine productivity.**  
-> Arcix OS is a next-generation, open operating system built from AOSP — reimagined for a world where work, learning, and creativity exist everywhere.
+It is designed for:
 
-Arcix unifies **mobile and desktop** experiences into one intelligent, adaptive system. It’s open-source, community-first, and designed to be affordable, private, and extensible.
+* **Students and educators**: offline-ready tools, classroom management, and learning resources.
+* **Creators and professionals**: consistent productivity and creative workflows across devices.
+* **Developers and contributors**: a flexible platform for experimentation, app development, and device support.
 
----
-
-## 🎯 Our Mission
-
-Technology should **amplify human potential**, not complicate it.
-
-Arcix OS exists to make devices more helpful, more adaptable, and more humane. Whether you’re a **student**, **teacher**, **developer**, or **professional**, Arcix gives you the tools to **learn faster**, **create freely**, and **work smarter** — all in one ecosystem.
-
-> **Vision:** A world where anyone, anywhere, can access powerful technology designed for growth, not limits.
+Arcix’s vision is to **eliminate barriers between mobile and desktop devices**, giving everyone access to powerful, flexible technology.
 
 ---
 
-## 💡 Why Arcix OS?
+## How Arcix OS Works
 
-Arcix is a foundation for digital independence and an alternative to closed, expensive systems.
+Arcix OS is structured in three main layers:
 
-| What You Get | Why It Matters |
-|---|---|
-| **Unified Productivity** | One OS that adapts across phone, tablet, laptop, or desktop — same workflows, same files. |
-| **Education-First** | Offline classrooms, teacher tools, and low-cost device support so schools can reach every student. |
-| **AI-Assisted Efficiency** | Local, privacy-preserving assistants that summarize, schedule, and simplify tasks. |
-| **Affordable & Accessible** | Runs on modern and older hardware — reducing digital divide barriers. |
-| **Privacy-First** | Transparent controls, no ads, and no hidden tracking. Your data stays yours. |
+### 1. Android Base
 
----
+* Provides core Android functionality and app compatibility.
+* Supports FOSS app stores (F-Droid, Aurora) and optionally the Play Store.
+* Manages mobile drivers, touchscreen input, and core system services.
 
-## 🧠 Who it's for
+### 2. PC Desktop Layer
 
-- **Students & Schools** — affordable devices, offline lessons, teacher dashboards.  
-- **Creators & Educators** — built-in studio and sharing tools for multimedia.  
-- **Startups & Teams** — lightweight, secure, and flexible workspace tools.  
-- **Developers & Contributors** — open architecture and composable modules for building the future.
+* Android-x86 enables the OS to run on PC hardware.
+* A Linux-based kernel extends hardware support for desktops and laptops.
+* Desktop Mode adapts the UI to larger screens, supporting multi-window workflows and desktop-style productivity.
 
----
+### 3. Linux Compatibility Layer
 
-## ✨ Core Concepts (Planned)
+* Runs native Linux applications through containerization (proot/chroot).
+* Integrates seamlessly with desktop mode, allowing Linux software to coexist with Android apps.
 
-- **Arcix Mind** — local, on-device AI for task automation and contextual help.  
-- **Arcix Desktop Mode** — full windowed desktop experience on x86 and ARM devices.  
-- **Classroom Suite** — teacher tools, content distribution, and student profiles (offline capable).  
-- **Arcix Flow Engine** — adaptive performance tuning to prioritize apps you use most.  
-- **Arcix Safe** — encrypted vaults and per-app privacy controls.  
-- **Open App Access** — F-Droid + Aurora support, Play Store optional for personal installs.
+Additional components:
+
+* **Arcix Mind**: AI assistant for task management, scheduling, and recommendations.
+* **Arcix Flow Engine**: dynamically prioritizes resources for the apps and workflows you use most.
+* **Arcix Safe**: encrypted storage and per-app privacy controls.
 
 ---
 
-## ⚙️ Technical Highlights (Planned)
+## Key Features
 
-| Layer | Description |
-|---|---|
-| Core | AOSP (Android 15+) + Linux kernel |
-| Desktop | Android-x86 integration for PC support |
-| Security | Verified boot, sandboxing, encryption |
-| Apps | Android apps + PWAs + optional containerized desktop apps |
-| AI | TensorFlow Lite / on-device models |
-
----
-
-## 🛠 Development Roadmap (High level)
-
-- **Concept & Design** — complete ✅  
-- **AOSP base & x86 prototype** — in progress 🔄  
-- **Adaptive desktop UI & Arcix Mind** — design / early builds 🧩  
-- **Education feature set & community pilots** — upcoming 🔜  
-- **Early access & partner programs** — planned 🚀
+| Feature                       | Description                                                         |
+| ----------------------------- | ------------------------------------------------------------------- |
+| **Unified Ecosystem**         | One OS across mobile and PC devices; consistent UI and file access. |
+| **Android Compatibility**     | Run millions of existing Android apps.                              |
+| **Linux Application Support** | Run desktop Linux software on PC builds.                            |
+| **Adaptive UI & Performance** | Desktop and mobile modes adjust for device, screen, and workload.   |
+| **Privacy & Security**        | Verified boot, sandboxed apps, encrypted storage.                   |
+| **Accessible & Affordable**   | Runs on modern and older ARM and x86 devices.                       |
 
 ---
 
-## 🚀 Get Started (Early / Preview builds)
+## Architecture Overview
 
-We’re building core systems now. Want to try, pilot in a classroom, or help test early builds?
+```
+User Interface (Mobile / Desktop)
+         │
+Application Layer
+  - Android apps
+  - Linux apps (via container)
+         │
+System Services
+  - Arcix Mind (AI assistance)
+  - Arcix Flow Engine (adaptive performance)
+  - Arcix Safe (privacy & encryption)
+         │
+Kernel Layer
+  - Android/Linux hybrid kernel
+  - Device drivers (mobile & PC)
+         │
+Hardware Layer
+  - ARM mobile devices
+  - x86 PCs and laptops
+```
 
-- Star the repo and **watch** for releases.  
-- Join the community channels (Discord / Matrix — links below).  
-- Request an education pilot or vendor partnership via the contact form.
-
-> Note: Initial builds will be developer / pilot focused. If you need production GMS (Google Play Services) or Widevine DRM, that requires licensing — Arcix will support FOSS app stores by default.
-
----
-
-## 🤝 How You Can Help
-
-Arcix is community-driven. Everyone is welcome.
-
-- **Educators:** Share classroom requirements and pilot feedback.  
-- **Developers:** Contribute code, device ports, and test suites.  
-- **Designers:** Help polish UX, accessibility, and onboarding.  
-- **Donors & Sponsors:** Support developer bounties and education grants.
-
-**How to contribute**
-1. Fork the repo  
-2. Create a feature branch `feature/your-idea`  
-3. Open a concise PR with description & tests  
-4. Join the discussion in Issues and our community chat
-
-_Read CONTRIBUTING.md in the repo for full guidelines._
+This design ensures **seamless interaction across devices**, **efficient resource usage**, and **enhanced security**, all while maintaining **app compatibility and flexibility**.
 
 ---
 
-## 💚 Community & Funding Model
+## Target Users
 
-Arcix is open-source and charity-oriented. We plan a hybrid model that:
-- Keeps the core OS free and open under permissive licenses,  
-- Accepts donations and grants to fund developer pay, and  
-- Offers transparent funding reports and sponsor programs for schools and nonprofits.
-
-We believe fair pay for contributors creates a healthier ecosystem and better software for everyone.
+* **Students & Schools**: offline tools, classroom dashboards, and content management.
+* **Creators & Professionals**: unified platform for media, productivity, and collaboration.
+* **Startups & Teams**: lightweight, secure, and flexible workspace environment.
+* **Developers & Contributors**: open architecture to experiment, build, and extend the platform.
 
 ---
 
-## 📄 License
+## Development Roadmap
 
-Arcix OS will be released under open-source licensing consistent with AOSP and Linux foundations (Apache-2.0 for new components where appropriate). Specific modules may use compatible OSS licenses; see each repo for details.
-
----
-
-## 📞 Contact & Connect
-
-- Website: *(coming soon)*  
-- GitHub: <https://github.com/Arcix-OS>  
-- Organization: <https://github.com/Arcix-OS>  
-- Community: Discord / Matrix / Telegram — links in the repo
-
-For school pilots, partnerships, or sponsorship inquiries, please open an issue or email: `contact@arcix.org` *(or replace with your contact address)*.
+1. **Concept & Design** – Completed.
+2. **AOSP Base & PC Prototype** – In progress.
+3. **Desktop UI & Arcix Mind** – Early builds.
+4. **Education Suite & Community Pilots** – Upcoming.
+5. **Early Access & Partner Programs** – Planned.
 
 ---
 
-## 🪶 Tagline
+## How to Contribute
 
-> **Arcix OS — Empowering Everyone, Everywhere.**
+Arcix OS is **community-driven**. Contributors are welcome from all backgrounds:
+
+1. Fork the repository.
+2. Create a branch: `feature/your-feature`.
+3. Submit a pull request with a clear description and tests.
+4. Participate in discussions via Issues and community channels.
+
+See `CONTRIBUTING.md` for detailed guidelines.
+
+---
+
+## License
+
+Arcix OS is released under the **Apache 2.0 License**, compatible with AOSP and Linux. Some modules may have other compatible open-source licenses; see each module for details.
+
+---
+
+## Contact
+
+* GitHub: [https://github.com/Arcix-OS](https://github.com/Arcix-OS)
+* Community: Discord / Matrix / Telegram (links in repo)
+* Partnerships, pilots, or sponsorship inquiries: `contact@arcix.org`
+
+---
+
+**Arcix OS — One System, Seamless Experience Across Devices.**
 
